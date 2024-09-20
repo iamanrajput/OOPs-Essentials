@@ -7,3 +7,23 @@ Similarly, in programming, an object represents an entity, and the class is the 
 
 - Class names start with an uppercase letter.
 - Object names start with a lowercase letter.
+```
+class Pen {                      //class
+    String color;
+    Integer cost;
+     public void write () {
+        System.out.print("Write something");
+     }
+}
+
+{
+    public static void main(String [] args)
+        {
+            Pen pen1 = new Pen (); //object
+            pen1.color = "blue";
+            pen1.cost = 20;
+
+            pen1.write();
+        }
+}
+```
