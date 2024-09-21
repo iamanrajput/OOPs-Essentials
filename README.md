@@ -5,6 +5,10 @@ Before a BMW car was made, a blueprint was designed and given to factories. All 
 
 Similarly, in programming, an object represents an entity, and the class is the instruction to design that object. Functions defined within a class are called **methods**.
 
+`Class` is a user-defined data type which defines its properties and its functions. Class is the only logical representation of the data. For example, Human being is a class. The body parts of a human being are its properties, and the actions performed by the body parts are known as functions. The class does not occupy any memory space till the time an object is instantiated.
+
+`Object` is a run-time entity. It is an instance of the class. An object can represent a person, place or any other item. An object can operate on both data members and member functions.
+
 - Class names start with an uppercase letter.
 - Object names start with a lowercase letter.
 ```
